@@ -9,4 +9,4 @@ Check is a very small, incomplete site I created in my first term of University 
 
 ## Style Stomps
 
-Style Stomps is another small shoe shop site I created in my second term of College (early 2015). I created it entirely with HTML & CSS in Notepad++, aside from a vey basic email and search form with a few lines of JavaScript.
+Style Stomps is another small, shoe shop site I created in my second term of College (early 2015). I created it entirely with HTML & CSS in Notepad++, aside from a very basic email and search form with a few lines of JavaScript.
