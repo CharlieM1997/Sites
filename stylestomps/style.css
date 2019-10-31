@@ -1,0 +1,579 @@
+﻿html { background-color: #7581AD;
+height: 100%;
+position: relative;
+margin: 0 auto !important;
+padding: 0;
+float: none;
+text-align:center;
+overflow-x: hidden;
+}
+
+div#wrapperHeader div#header {
+ width:1000px;
+ height:200px;
+ margin:0 auto;
+ text-align:center;
+}
+
+div#wrapperHeader div#header img {
+ width:900px; /* the width of the logo image */
+ height:180px; /* the height of the logo image */
+ margin:0 auto;
+ position: relative; 
+ text-align:center;
+}
+
+#logo-link { 
+		position: relative;
+		display: inline-block; 
+		width: 180px; 
+		height: 180px;
+		bottom: 185px; 
+		background-color: transparent;
+		    /*border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-width: 1px;*/
+}
+
+div.Sectors1
+{  
+display: inline-block;
+position: relative;
+}
+
+#Sector1{
+    width:177px;
+    height:225px;
+	position: relative;
+	display: inline-block;
+	background-image:url("images/DropDown1.png");
+	z-index: 1;
+	bottom: 51px;
+	right: 350px;
+}
+    /*bottom: 460px;
+	right: 950px;*/
+
+#Men-Link
+{
+		position: relative;
+		display: inline-block;
+		width: 175px; 
+		height: 27px;	
+		background-color: transparent;
+		/*border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-width: 1px;*/
+}
+
+#MenSport-Link
+{
+		position: relative;
+		display: inline-block; 
+		width: 175px; 
+		height: 37px;		
+		background-color: transparent;
+		/*opacity: 0.0;
+        filter: alpha(opacity=0);
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";*/
+		/*border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-width: 1px;*/
+}
+
+#MenBeach-Link
+{
+		position: relative;
+		display: inline-block; 
+		width: 175px; 
+		height: 41px;	
+		bottom: 1px;
+		background-color: transparent;
+		/*border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-width: 1px;*/
+}
+
+#MenOutdoor-Link
+{
+		position: relative;
+		display: inline-block; 
+		width: 175px; 
+		height: 40px;	
+		bottom: 2px;
+		background-color: transparent;
+		/*border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-width: 1px;*/
+}
+
+#MenCasual-Link
+{
+		position: relative;
+		display: inline-block; 
+		width: 175px; 
+		height: 62px;
+		bottom: 2px;
+		background-color: transparent;
+		/*border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-width: 1px;*/
+}
+	
+/*#Men-Link { 
+		position: relative;
+		display: inline-block; 
+		width: 177px; 
+		height: 27px;
+		bottom: 250px; 
+		background-color: transparent;*/
+
+
+#Sector2
+{
+  position: relative;
+  right: 160px;
+  bottom: 277px;
+
+}
+
+#Sectors2 div
+{
+  display:inline-block;
+  position: relative;
+  /*left: 250px;
+  bottom: 321px;*/
+}
+
+#Sector3
+{
+position: relative;
+display: inline-block;
+left: 250px;
+bottom: 504px;
+}
+
+#Sector4
+{
+    width:177px;
+    height:225px;
+	position: relative;
+	display: inline-block;
+	background-image:url("images/DropDown2.png");
+	z-index: 1;
+	bottom: 322px;
+	left: 260px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+#Sector2
+{
+  bottom: 279px;
+}
+
+#Sector3
+{
+bottom: 506px;
+}
+
+#Sector4
+{
+	bottom: 323px;
+}
+}
+
+#Women-Link
+{
+		position: relative;
+		display: inline-block; 
+		width: 175px; 
+		height: 27px;		
+		background-color: transparent;
+		/*border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-width: 1px;*/ /*For some odd reason, the first link posted in the CSS after div.Section1 doesn't appear, no matter what.
+	Because of this, I just replicated the first link and gave it a visibility: hidden trait so it becomes irrelevant.*/
+}
+
+#Women-Link
+{
+		position: relative;
+		display: inline-block;
+		width: 175px; 
+		height: 27px;		
+		background-color: transparent;
+		/*border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-width: 1px;*/
+}
+
+#WomenSport-Link
+{
+		position: relative;
+		display: inline-block; 
+		width: 175px; 
+		height: 37px;		
+		background-color: transparent;
+		/*opacity: 0.0;
+        filter: alpha(opacity=0);
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";*/
+		/*border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-width: 1px;*/
+}
+
+#WomenBeach-Link
+{
+		position: relative;
+		display: inline-block; 
+		width: 175px; 
+		height: 41px;	
+		bottom: 1px;
+		background-color: transparent;
+		/*border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-width: 1px;*/
+}
+
+#WomenOutdoor-Link
+{
+		position: relative;
+		display: inline-block; 
+		width: 175px; 
+		height: 40px;	
+		bottom: 2px;
+		background-color: transparent;
+		/*border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-width: 1px;*/
+}
+
+#WomenCasual-Link
+{
+		position: relative;
+		display: inline-block; 
+		width: 175px; 
+		height: 62px;
+		bottom: 2px;
+		background-color: transparent;
+		/*border-style: solid;
+    border-color: #ff0000 #0000ff;
+    border-width: 1px;*/
+}
+
+body{
+max-width: 1080px;
+margin: 0 auto !important;
+padding: 0;
+float: none !important;
+display: inline-block;
+background-color: #8EB197; /*#1b222f;*/
+}
+
+.HomepageBody{
+padding-top: 75px;
+padding-bottom: 35px;
+bottom: 500px;
+position: relative;
+}
+
+#StickToLeft{
+width: 75%;
+text-align: left;
+position: relative;
+}
+
+.ShoePhotos{
+display: inline-block;
+}
+
+.Shoe-Links{
+display: inline-block;
+}
+
+.ShoeFont1{
+font-family: Calibri,Arial,sans-serif;
+font-weight: bold;
+line-height: 175%;
+}
+
+.ShoeFont2{
+color: #323232;
+font-family: "Calibri Light",Calibri,Arial,sans-serif;
+font-size: 90%;
+}
+
+.ShoeFont3{
+font-family: "Arial Black",Arial,sans-serif;
+}
+
+.ShoeFont4{
+color: #CC0000;
+font-family: "Arial Black",Arial,sans-serif;
+}
+
+.ShoeFont5{
+font-family: Calibri,Arial,sans-serif;
+font-size: 75%;
+}
+
+.ShoeLeftSide{
+width: 50%;
+height: 480px;
+float: left;
+margin: 3px;
+border: 1px solid #000000;
+position: relative;
+overflow-y: visible;
+}
+
+.ShoeRightSide{
+width: 48%;
+float: right;
+position: relative;
+}
+
+#ShoeExample{
+width: 90%;
+height: 900px;
+background-color: white;
+position: relative;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.Row1{
+width: 158px;
+height: 248px;
+margin-left: 20px;
+margin-right: 20px;
+border: 2px solid #4c4c4c;
+background-color: white;
+display: inline-block;
+}
+
+.Row2{
+width: 158px;
+height: 248px;
+margin-left: 20px;
+margin-right: 20px;
+border: 2px solid #4c4c4c;
+background-color: white;
+display: inline-block;
+}
+
+.Row3{
+width: 158px;
+height: 248px;
+margin-left: 20px;
+margin-right: 20px;
+border: 2px solid #4c4c4c;
+background-color: white;
+display: inline-block;
+}
+
+.Row4{
+width: 158px;
+height: 248px;
+margin-left: 20px;
+margin-right: 20px;
+border: 2px solid #4c4c4c;
+background-color: white;
+display: inline-block;
+}
+
+h1 {
+font-family:"Segoe UI Symbol","Segoe UI",Verdana,Arial,sans-serif;
+text-align: center;
+font-weight: bold;
+/*;box-shadow: 10px 10px 5px #888888;
+;background: linear-gradient(to right, red , blue);
+;transform: rotate(3deg);/* Internet Explorer 10, Firefox, and Opera */
+/*;-ms-transform: rotate(3deg); /* IE 9 */
+/*;-webkit-transform: rotate(3deg); /* Safari and Chrome */
+
+
+}
+
+h2 {
+/*;	text-align: left;*/
+font-family:Verdana,Arial,sans-serif;
+/*padding-left: 50px;*/
+	
+}
+
+h3 {
+font-family:Calibri,Arial,sans-serif;
+
+}
+
+h4 {
+font-family:Calibri,Arial,sans-serif;
+
+}
+h5 {
+/*;text-align: left;*/
+font-family:Calibri,Arial,sans-serif;
+font-style: italic
+}
+
+hr {
+width: 90%;
+height: 2px;
+margin-left: 30px;}
+
+/*;p.date {
+;    text-align: right;
+;}*/
+
+/*p.main {
+    text-align: justify;
+}*/
+
+ul
+{ 
+}
+
+li
+{ 
+}
+
+p{
+padding-left: 50px;
+padding-right: 50px;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 90%;
+color: #0C090A;
+/*line-height:170%*/
+}
+
+#ShoeTable{
+display: block;
+width: 75%;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 90%;
+margin-left: 23%;
+}
+
+#ShoeTable td{
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+pwithunderline{
+padding-left: 50px;
+padding-right: 50px;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 90%;
+color: #0C090A;
+text-decoration: underline;}
+
+#footspacing{
+/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+position: absolute;
+padding-left: 5px;
+color: black;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+figcaption {
+color: grey;
+font-family: "Times New Roman",Times,serif;
+/*text-align: justify;*/
+padding-left: 50px;
+font-style: italic
+}
+
+#greytext {
+color: grey;
+font-family: "Times New Roman",Times,serif;
+/*text-align: justify;*/
+font-style: italic
+}
+
+form{
+	width:500px;
+	margin:0 auto;
+}
+
+search { 
+	padding:6px 15px 6px 30px;
+	margin:3px; 
+	background: url(images/search.png) no-repeat 8px 6px; 
+}
+
+rounded { 
+	border-radius:15px; 
+	-moz-border-radius:15px; 
+	-webkit-border-radius:15px; 
+}
+
+input[type=text]{
+	color:#bcbcbc;
+}
+
+.light{
+text-align: right;
+padding-left: 400px;
+}
+
+input[type=button], input[type=button]:hover {
+	position:relative; 
+	left:-6px;
+	border:1px solid #adc5cf;
+	background: #e4f1f9; /* Old browsers */
+	background: -moz-linear-gradient(top, #e4f1f9 0%, #d5e7f3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f1f9), color-stop(100%,#d5e7f3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* IE10+ */
+	background: linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f1f9', endColorstr='#d5e7f3',GradientType=0 ); /* IE6-9 */
+	color:#7da2aa;
+	cursor: pointer;
+}
+
+light{ /*lighter, dark*/
+	width:95%;
+	height:50px;
+	padding:40px 25px;
+}
+
+light{
+	background-color: #8f8f8f;
+}
+light input[type=text]{
+	border:1px solid #acb1b7;
+	background-color:#fcfcfc;
+}
+
+
+#footer {
+/*background-color: #675c47;*/
+color: #efe5d0;
+text-align: center;
+height: 40px;
+/*padding: 15px 0;
+margin: 10px;*/
+font-size: 90%;
+/*min-width: 100%;*/
+  position: relative; /* for child pseudo-element */
+  z-index: 0;
+  margin: 0 -600rem;
+  /* add back negative margin value */
+  padding: 0.25rem 600rem;
+  background: #666;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+#footer:before {
+  content: "";
+  position: absolute;
+  z-index: -1; /* behind parent */
+  top: 0;
+  bottom: 0;
+  /* subtract h2 padding (1.5rem) */
+  left: 600rem;
+  right: 600rem;
+  background: #B2BEB5; /*#2F4F4F;*/}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link type="text/css" rel="stylesheet" href="style.css" />
+<title>Style Stomps | Contact Us</title>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}
+</script>
+
+</head>
+<body> <!--bgcolor = "#EDC9AF"-->
+<div class="light">
+<form>
+	<span><input type="text" class="search rounded" placeholder="Search..."></span>
+</form>
+</div>
+<div id="wrapperHeader">
+ <div id="header">
+  <img src="images/header.png" alt="logo">
+  <a id="logo-link" href="Homepage.html"></a>
+ </div> 
+</div>
+<nav id="Sectors">
+<div class="Sectors1">
+            <div id="Sector1"> <!--usemap="#MenMap"> This would be placed inside the Sector1 div-->
+			<a class="Men-Links" id="Men-Link" href="ShoesForMen.html"></a>
+			<a class="Men-Links" id="MenSport-Link" href="ShoesForMenSport.html"></a>
+			<a class="Men-Links" id="MenBeach-Link" href="ShoesForMenBeach.html"></a>
+			<a class="Men-Links" id="MenOutdoor-Link" href="ShoesForMenOutdoor.html"></a>
+			<a class="Men-Links" id="MenCasual-Link" href="ShoesForMenCasual.html"></a>
+			<!--<a class="Sector1" href="ShoesForMen.html"></a>-->
+			<!--<map id="MenMap">
+			<area shape="rect" coords="0,0,177,27" alt="MenGeneral" href="ShoesForMen.html">
+			<area shape="rect" coords="0,31,177,68" alt="MenSport" href="ShoesForMenSport.html">
+			<area shape="rect" coords="0,71,177,112" alt="MenBeach" href="ShoesForMenBeach.html">
+			<area shape="rect" coords="0,115,177,155" alt="MenOutdoor" href="ShoesForMenOutdoor.html">
+			<area shape="rect" coords="0,158,177,220" alt="MenCasual" href="ShoesForMenCasual.html">
+			</map>-->
+                <!--<img src="images/Sector1.png" width="177" height="40">-->
+                </div>
+                            <!--<ul>
+                <li><a href="#">Sport Shoes</a></li>
+                <li><a href="#">Beach Shoes</a></li>
+                <li><a href="#">Outdoor Shoes</a></li>
+                <li><a href="#">Casual Shoes</a></li>
+            </ul>-->
+            	    </div>
+            <div id="Sector2">
+                <a href="StoreLocator.html"> <img src="images/Sector2.png" width="177" height="40" alt="Store Locator"></a>
+            </div>
+<div id="Sectors2">
+            <div id="Sector3">
+                <a href="Sales.html"> <img src="images/Sector3.png" width="177" height="40" alt="Sales"></a>
+            </div>
+			 <div id="Sector4">
+			 	<a class="Women-Links" id="Women-Link" href="ShoesForWomen.html"></a>
+			 	<a class="Women-Links" id="WomenSport-Link" href="ShoesForWomenSport.html"></a>
+			 	<a class="Women-Links" id="WomenBeach-Link" href="ShoesForWomenBeach.html"></a>
+			 	<a class="Women-Links" id="WomenOutdoor-Link" href="ShoesForWomenOutdoor.html"></a>
+			 	<a class="Women-Links" id="WomenCasual-Link" href="ShoesForWomenCasual.html"></a>
+                <!--<img src="images/Sector4.png" width="177" height="40">-->
+            </div>
+        </div>
+</nav>
+	<div class="HomepageBody">
+		<h1>Contact Us</h1>
+		<br><br><br>
+		<div id="StickToLeft">
+			<h2>Telephone</h2>
+			<hr>
+				<p>The customer care phone number is <strong>01323 ######</strong>.
+				 Our friendly team are available between 9am-5pm GMT, Monday - Friday. 
+				 Please note the telephone enquiry line is not available weekends, English statutory and public holidays.<br>
+<br>
+Please note that during busy periods your call may be diverted to an answer phone. 
+Please leave your name and number and we will endeavour to return your call as soon as possible.</p><br>
+<br>
+<br>
+			<h2>Post</h2>
+			<hr>
+				<p>You can write to us at the address below:<br><br>Style Stomps UK<br>
+				Cross Levels Way<br>Eastbourne<br>East Sussex<br>BN21 2UF<br></p>
+<br>
+<br>
+			<h2>E-Mail</h2>
+			<hr>
+				<p>If you have any queries, please do not hesitate to contact us using the form below.</p>
+<br>
+<form name="myForm" action="demo_form.asp" onsubmit="return validateForm();" method="post">
+Email: <input type="text" name="email">
+<input type="submit" value="Submit">
+</form>
+		</div>
+	</div>
+
+
+
+
+
+            
+        <!--wrapper-->
+<footer>
+	<div id="footer">
+	<div id="footspacing"><p>Designed by Charles Middlemiss, &copy; 2015</p></div> <p>Contact Us - <a
+	href="AboutUs.html">About Us</a> - <a href="Policies.html">Returns Policies</a></p>
+	</div>
+</footer>
+</body>
+</html>
